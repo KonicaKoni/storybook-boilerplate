@@ -1,14 +1,16 @@
 .button {
-  padding: 15px 25px;
-  font-size: 24px;
+  padding: 10px 10px;
+  margin: 5px;
+  font-size: 16px;
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: rgb(211, 175, 13);
+  background-color: #4CAF50;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+  border-radius: 10px;
+  box-shadow: 0 2px #999;
+  text-align: center;
 }
 
 .button:disabled {
@@ -17,12 +19,18 @@
   box-shadow: 0 9px #3f3f3f;
 }
 
+.button.inactive {
+  background-color: red !important;
+  box-shadow: 0 9px #3f3f3f;
+}
+
 .button:hover {
-  background-color: #3e8e41
+  background-color: #3e8e41;
+  color: black;
 }
 
 .button:active {
   background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 2px black;
   transform: translateY(4px);
 }
