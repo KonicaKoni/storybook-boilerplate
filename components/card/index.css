@@ -1,0 +1,175 @@
+.card {
+    background-color: transparent;
+    border-style: solid;
+    border-color: silver;
+    width: 22%;
+    margin: 0px 10px 10px 10px;
+    border-radius: 5px;
+    float: left;
+    
+}
+.cardHeader {
+    background-color:whitesmoke;
+    text-align: center;
+    content: "";
+    display: flex;
+    clear: both;
+}
+.iconHeader {
+    width: 15%;
+    float: left;
+    margin: 10px 0px 10px 0px;
+}
+
+.imageHeader {
+    width: 55%;
+    float: left;
+    margin: 10px 0px 10px 0px;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row {
+    content: "";
+    display: flex;
+    clear: both;
+    width: 235px;
+    
+}
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+}
+.cardRow {
+    content: "";
+    display: flex;
+    clear: both;
+}
+.productImg {    
+    max-width: 235px;
+    max-height: 180px;   
+    text-align: center; 
+}
+
+.productIcon {    
+    max-width: 24px;
+    max-height: 24px; 
+    text-align: center; 
+    cursor: pointer;
+}
+.divText{
+    max-height: 180px;   
+ 
+}
+.title{
+    margin: 8px 10px 10px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    height: 60px;
+}
+
+.text{
+    margin: 10px 10px 10px 12px;
+    font-weight: normal;
+    font-size: 12px;
+    height: 180px;   
+ 
+}
+
+/* styles for '...' */ 
+.block_with_text {
+    /* hide text if it more than N lines  */
+    overflow: hidden;
+    /* for set '...' in absolute position */
+    position: relative; 
+    /* use this value to count block height */
+    line-height: 1.2em;
+    /* max-height = line-height (1.2) * lines max number (3) */
+    max-height: 3.6em; 
+    /* fix problem when last visible word doesn't adjoin right side  */
+    text-align: justify;  
+    /* place for '...' */
+    margin-right: -1em;
+    padding-right: 1em;
+
+    margin: 10px 10px 10px 12px;
+    font-weight: normal;
+    font-size: 12px;
+ 
+  }
+  /* create the ... */
+  .block_with_text:before {
+    /* points in the end */
+    content: '...';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of block */
+    right: 0;
+    bottom: 0;
+  }
+  /* hide ... if we have text, which is less than or equal to max lines */
+  .block_with_text:after {
+    /* points in the end */
+    content: '';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of text */
+    right: 0;
+    /* set width and height */
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    /* bg color = bg color under block */
+    background: white;
+  }
+
+  /* styles for '...' */ 
+.block_with_title{
+    /* hide text if it more than N lines  */
+    overflow: hidden;
+    /* for set '...' in absolute position */
+    position: relative; 
+    /* use this value to count block height */
+    line-height: 1.5em;
+    /* max-height = line-height (1.2) * lines max number (3) */
+    max-height: 1.5em; 
+    /* fix problem when last visible word doesn't adjoin right side  */
+    text-align: justify;  
+    /* place for '...' */
+    margin-right: -1em;
+    padding-right: 1em;
+
+    margin: 8px 10px 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+ 
+  }
+  /* create the ... */
+  .block_with_title:before {
+    /* points in the end */
+    content: '...';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of block */
+    right: 0;
+    bottom: 0;
+  }
+  /* hide ... if we have text, which is less than or equal to max lines */
+  .block_with_title:after {
+    /* points in the end */
+    content: '';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of text */
+    right: 0;
+    /* set width and height */
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    /* bg color = bg color under block */
+    background: white;
+  }
