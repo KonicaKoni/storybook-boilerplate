@@ -1,0 +1,29 @@
+.navigation ul {
+    list-style-type: node;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+    width: 100%;
+  }
+  
+  .navigation li {
+    display: inline;
+    border-right: 1px solid white;
+  }
+  
+  .navigation li a {
+    display: inline-block;
+    padding: 10px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .navigation li:not(.active) a:hover {
+    background-color: #111;
+  }
+  
+  .active a {
+    background-color: blue;
+  }
