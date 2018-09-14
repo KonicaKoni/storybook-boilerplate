@@ -1,0 +1,27 @@
+.main {
+    background-color:#ed3237;
+    width: 100%;  
+    height: 180px;  
+    border-radius: 5px;
+    display: flex;
+}
+
+.headerText {
+    text-align: center; 
+    width: 55%;    
+    height: 100%; 
+    margin: 30px 10px 10px 10px;
+    font-size: 70px;    
+}
+
+.headerLogo {
+    text-align: right; 
+    width: 45%;
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+.logo {
+    max-width: 235px;
+    max-height: 180px;   
+    text-align: center; 
+}
