@@ -2,13 +2,13 @@ import { configure } from '@storybook/react';
 
 function loadStories() {
   require('../stories/button.js');
-  require('../stories/card.js');
-  require('../stories/footer.js');
-  require('../stories/header.js');
-  require('../stories/main-content.js');
-  require('../stories/navigation-menu.js');
-  require('../stories/roundicon-button.js');
-  require('../stories/popup.js');
+  require('../stories/card');
+  require('../stories/footer');
+  require('../stories/header');
+  require('../stories/main-content');
+  require('../stories/navigation-menu');
+  require('../stories/roundicon-button');
+  require('../stories/popup');
   require('../stories/table.js');
 }
 

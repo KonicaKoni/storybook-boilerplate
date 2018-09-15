@@ -1,6 +1,5 @@
 const glob = require('glob');
 const webpack = require('webpack');
-
 const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 module.exports = {
@@ -22,20 +21,29 @@ module.exports = {
         rules: [{
           test: /\.js$/,
           loaders: ['babel-loader'],
-        }]
+        }],
       },
       {
         test: /\.css$/,
-        loader: 'style-loader'
+        loader: 'style-loader',
       },
       {
         test: /\.css$/,
         loader: 'css-loader',
         query: {
           modules: true,
-          localIdentName: '[name]__[local]___[hash:base64:5]'
-        }
-      }
+          localIdentName: '[name]__[local]___[hash:base64:5]',
+        },
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: { name: '[sha512:hash:base64:7].[ext]' },
+          },
+        ],
+      },
     ],
   },
   externals: [

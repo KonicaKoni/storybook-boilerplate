@@ -6,7 +6,9 @@
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "react-popup": "^0.9.3",
+    "react-svg-sprite": "^1.0.8"
   },
   "devDependencies": {
     "@storybook/react": "^3.4.2",
@@ -21,9 +23,11 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.8.2",
+    "file-loader": "^1.1.11",
     "glob": "^7.1.2",
     "react-hot-loader": "^4.2.0",
-    "style-loader": "^0.21.0"
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1"
   },
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
@@ -31,12 +35,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DavidAbram/storybook-project.git"
+    "url": "git+https://github.com/KonicaKoni/storybook-boilerplate.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DavidAbram/storybook-project/issues"
+    "url": "https://github.com/KonicaKoni/storybook-boilerplate/issues"
   },
-  "homepage": "https://github.com/DavidAbram/storybook-project#readme"
+  "homepage": "https://github.com/KonicaKoni/storybook-boilerplate#readme"
 }
