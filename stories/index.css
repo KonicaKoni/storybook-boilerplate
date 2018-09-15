@@ -1,0 +1,16 @@
+.main {
+    width: 100%;  
+}
+
+.body {
+    width: 100%;  display: flex;
+}
+
+.content {
+    width: 81%;  
+    
+}
+
+.menu {
+    width: 19%;  margin: 10px 0px 10px 0px;
+}
