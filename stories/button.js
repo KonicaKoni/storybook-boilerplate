@@ -19,6 +19,6 @@ buttonStory.add('disabled', () => (
 ));
 
 buttonStory.add('with on click handler', () => (
-  <Button text="Press me!" onClick={this.handleClick} ></Button>
+  <Button text="Press me!" onClick={alert("kliknuli ste na link")} ></Button>
 ));
 
