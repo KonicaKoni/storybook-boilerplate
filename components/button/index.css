@@ -25,12 +25,12 @@
 }
 
 .button:hover {
-  background-color: #3e8e41;
+  background-image: linear-gradient(283deg, #e27210, #c40f61);
   color: black;
 }
 
 .button:active {
-  background-color: #3e8e41;
+  background-image: linear-gradient(283deg, #c40f61, #e27210);
   box-shadow: 0 2px black;
   transform: translateY(4px);
 }
