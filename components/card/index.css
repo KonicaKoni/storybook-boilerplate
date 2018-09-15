@@ -101,7 +101,7 @@
     /* place for '...' */
     margin-right: -1em;
     padding-right: 1em;
-
+    min-height: 56px;
     margin: 10px 10px 10px 12px;
     font-weight: normal;
     font-size: 12px;

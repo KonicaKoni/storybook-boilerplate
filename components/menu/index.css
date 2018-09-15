@@ -24,11 +24,11 @@
   }
   
   .navigation li:not(.active) a:hover {
-    background-color:red;
+    background-image: linear-gradient(283deg,#c40f61,#e27210);
     color: white;
   }
   
   .active a {
-    background-color: red;
+    background-image: #e27210;
     color: white;
   }
