@@ -1,7 +1,7 @@
 import React from 'react';
 /* eslint-disable */
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
+import { storiesOf } from '../node_modules/@storybook/react';
+import { action } from '../node_modules/@storybook/addon-actions';
 /* eslint-enable */
 import Button from '../components/button';
 
