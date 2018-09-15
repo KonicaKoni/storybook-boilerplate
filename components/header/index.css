@@ -1,17 +1,21 @@
 .main {
-    background-color: blue;
+    background-image:url('https://i.stack.imgur.com/7YKUD.jpg');
     width: 100%;  
-    height: 180px;  
+    height: 220px;
+    background-size: cover;  
     border-radius: 5px;
     display: flex;
 }
 
 .headerText {
-    text-align: center; 
-    width: 55%;    
-    height: 100%; 
+    text-align: center;
+    width: 55%;
+    height: 100%;
     margin: 30px 10px 10px 10px;
-    font-size: 70px;    
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;  
 }
 
 .headerLogo {
@@ -22,6 +26,9 @@
 }
 .logo {
     max-width: 235px;
-    max-height: 180px;   
-    text-align: center; 
+    text-align: center;
+    background: white;
+    height: 100%;
+    border-radius: 100%;
+
 }

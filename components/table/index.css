@@ -9,15 +9,14 @@
 }
 
 .table tr:nth-child(even){background-color: #f2f2f2;}
-
+.table tr:first-of-type{background-image: linear-gradient(283deg,#c40f61,#e27210);}
 .table tr:hover {background-color: #ddd;}
 
 .table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: white;
-  color: black;
+  color: white;
 }
 
 .productIcon {    

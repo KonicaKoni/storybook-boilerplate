@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './index.css';
-
+import Button from '../button';
 export default class Card extends React.Component {
   render() {
     return (
@@ -23,6 +23,9 @@ export default class Card extends React.Component {
         <div className={styles.divText}>
           <h4 className={styles.title}> {this.props.name}</h4>
           <p className={styles.block_with_text}> {this.props.description}</p>
+          <div className={styles.gumb} >
+            <Button onClick={this.props.onClickCart} text='Dodaj u košarisu' />
+          </div>
         </div>
       </div>
     );

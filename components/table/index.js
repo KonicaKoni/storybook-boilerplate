@@ -16,6 +16,7 @@ export default class Table extends React.Component {
                             ))
                             }
                             {this.props.onControlClick !== undefined ? <th></th> : undefined}
+                            <th></th>
                         </tr>
                         {
                             this.props.values.map((value, rowIndex) => (

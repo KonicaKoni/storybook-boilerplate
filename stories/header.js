@@ -9,7 +9,7 @@ const headerStory = storiesOf('Header', module);
 
 headerStory.add('simple', () => (
   <Header
-     imgUrl="https://seeklogo.com/images/D/duff-beer-logo-3AA4218F1D-seeklogo.com.png"
+     imgUrl="http://www.alesandmeads.com/wp-content/uploads/2015/12/url.png"
      class=""
      text="Beer shop"
   ></Header>
