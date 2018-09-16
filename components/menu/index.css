@@ -13,6 +13,11 @@
       
       
   }
+  .navigation{
+   position: fixed;
+    
+    
+}
   
   .navigation li a {
     display: inline-block;

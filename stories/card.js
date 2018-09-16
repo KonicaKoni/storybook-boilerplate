@@ -20,9 +20,9 @@ cardStory.add('Primjer', () => (
        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
        accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis
        eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum."
-       iconFavorites="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
-       iconCart="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
-       iconDetails="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
+       iconFavorites="http://ingkvaliteta.com/wp-content/uploads/2018/09/star-empty.png"
+    iconCart="http://ingkvaliteta.com/wp-content/uploads/2018/09/cart.png"
+    iconDetails="http://ingkvaliteta.com/wp-content/uploads/2018/09/info-1.png"
       ></Card>
 ));
 
@@ -36,9 +36,9 @@ cardStory.add('Sve pive', () => {
         onClickFavorites={renderStarRating}
         onClickDetails={renderStarRating}
         onClickCart={renderStarRating}
-        iconFavorites="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
-        iconCart="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
-        iconDetails="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
+        iconFavorites="http://ingkvaliteta.com/wp-content/uploads/2018/09/star-empty.png"
+    iconCart="http://ingkvaliteta.com/wp-content/uploads/2018/09/cart.png"
+    iconDetails="http://ingkvaliteta.com/wp-content/uploads/2018/09/info-1.png"
         ></Card>);
   return <div className="row">{cards}</div>;
 });
