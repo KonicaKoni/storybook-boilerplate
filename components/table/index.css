@@ -1,0 +1,27 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td, .table th {
+  border: 0px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+.table tr:first-of-type{background-image: linear-gradient(283deg,#c40f61,#e27210);}
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+
+.productIcon {    
+  max-width: 24px;
+  max-height: 24px; 
+  text-align: center; 
+  cursor: pointer;
+}
