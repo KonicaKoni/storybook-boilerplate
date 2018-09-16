@@ -11,6 +11,6 @@ headerStory.add('Primjer headera', () => (
   <Header
      imgUrl="http://www.alesandmeads.com/wp-content/uploads/2015/12/url.png"
      class=""
-     text="Beer shop"
+     text="Trgovina piva"
   ></Header>
 ));

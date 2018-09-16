@@ -43,7 +43,7 @@ tableStory.add('Sa sadrzajem', () => (
   <Table 
     headers={header} 
     values={data} 
-    icon="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
+    icon="http://ingkvaliteta.com/wp-content/uploads/2018/09/bin2.png"
     onClick={renderStarRating}> 
   </Table>
 ));
