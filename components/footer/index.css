@@ -8,3 +8,7 @@
   text-align: center;
   font-weight: bold;
 }
+
+.footer img{    margin: 2px;
+  background: white;
+  padding: 20px;}

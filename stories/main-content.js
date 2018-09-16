@@ -19,38 +19,38 @@ const maincontentStory = storiesOf('Main Content', module);
 const links = [
   {
     id: 1,
-    name: 'google33',
+    name: 'google',
     content: <a href="google.com">Google {key}</a>,
     active: true,
   },
   {
     id: 2,
-    name: 'moogle33',
-    content: <a href="google.com">Moogle</a>,
+    name: 'algebra',
+    content: <a href="google.com">Algebra</a>,
     number: 7,
   },
   {
     id: 3,
-    name: 'home33',
+    name: 'home',
     content: <a href="google.com">Home</a>,
     active: false,
   },
   {
     id: 4,
-    name: 'favorites33',
-    content: <a href="google.com">Favoriets</a>,
+    name: 'favorites',
+    content: <a href="google.com">Favoriti</a>,
   },
   {
     id: 5,
-    name: 'about33',
-    content: <a href="google.com">About as</a>,
+    name: 'about',
+    content: <a href="google.com">O nama</a>,
   },
 ];
 
 const menu = [
   {
     id: 1,
-    name: 'google33',
+    name: 'google',
     content: 'Google',
     href: 'google.com',
     number: 0,
@@ -58,14 +58,14 @@ const menu = [
   },
   {
     id: 2,
-    name: 'moogle33',
-    content: 'Moogle',
+    name: 'algebra',
+    content: 'Algebra',
     href: 'google.com',
     
   },
   {
     id: 3,
-    name: 'home33',
+    name: 'home',
     content: 'Home',
     active: false,
     href: 'google.com',
@@ -73,23 +73,23 @@ const menu = [
   },
 ];
 
-maincontentStory.add('simple', () => (
+maincontentStory.add('Primjer 1', () => (
   <Menu links={links} />
 ));
 
 function renderStarRating(event) {
-  console.log(document.getElementsByName('google33')[0].innerText);
+  console.log(document.getElementsByName('google')[0].innerText);
 }
 
-maincontentStory.add('simple2', () => {
+maincontentStory.add('Primjer 2', () => {
   const cards = beers.map(beer => <Card
     id={beer.id}
     imgUrl={beer.image_url}
     name={beer.name}
     tagline={beer.tagline}
     description={beer.description}
-    iconFavorites="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
-    iconCart="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
+    iconFavorites="http://ingkvaliteta.com/wp-content/uploads/2018/09/star-empty.png"
+    iconCart="http://ingkvaliteta.com/wp-content/uploads/2018/09/cart.png"
     iconDetails="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
     onClickFavorites={renderStarRating}
     onClickDetails={renderStarRating}
@@ -101,7 +101,7 @@ maincontentStory.add('simple2', () => {
       <Header
         imgUrl="https://seeklogo.com/images/D/duff-beer-logo-3AA4218F1D-seeklogo.com.png"
         class=""
-      ></Header> <Menu links={menulinks} />
+      ></Header> 
       <Navigation links={links} />
       <div className={styles.body}>
         <div className={styles.content}>
@@ -109,37 +109,19 @@ maincontentStory.add('simple2', () => {
         </div>
         <div className={styles.menu}>
           <Menu links={menu} />
-          <Footer>
-      <ImageText
-        imgUrl="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
-        classImg="img"
-        classTxt="text"
-        text="Twitter"
-        href="http://iusinfo.hr"
-      ></ImageText>
-      <ImageText
-        imgUrl="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
-        classImg="img"
-        classTxt="text"
-        text="Facebook"
-        href="http://iusinfo.hr"
-      ></ImageText>
-      <ImageText
-        imgUrl="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
-        classImg="img"
-        classTxt="text"
-        text="GitHub"
-      ></ImageText>
-      <ImageText
-        imgUrl="http://icons.iconarchive.com/icons/iconsmind/outline/32/URL-Window-icon.png"
-        classImg="img"
-        classTxt="text"
-        text="Instagram"
-      ></ImageText>
-   </Footer>
+         
         </div>
       </div>
-      
+      <Footer>
+      <ImageText
+                imgUrl="http://ingkvaliteta.com/wp-content/uploads/2018/09/facebook2.png"
+                classImg="img"
+                classTxt="text"
+                text="Facebook"
+                href="https://www.facebook.com/"
+              />
+              Design by Koni
+   </Footer>
     </div>
   );
 });

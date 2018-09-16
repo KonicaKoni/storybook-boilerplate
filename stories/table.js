@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions';
 /* eslint-enable */
 import Table from '../components/table';
 
-const tableStory = storiesOf('Table', module);
+const tableStory = storiesOf('Tablica', module);
 
 const header = [
   {
@@ -39,7 +39,7 @@ const data = [
   },
 ];
 
-tableStory.add('with content', () => (
+tableStory.add('Sa sadrzajem', () => (
   <Table 
     headers={header} 
     values={data} 

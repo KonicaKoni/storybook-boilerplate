@@ -7,18 +7,18 @@ import Button from '../components/button';
 
 const buttonStory = storiesOf('Button', module);
 
-buttonStory.add('with text', () => (
+buttonStory.add('Gumb primjer', () => (
   <div>
   <Button text='Press me!' /> <Button text='Press me!' />
   </div>
 
 ));
 
-buttonStory.add('disabled', () => (
+buttonStory.add('Disabled', () => (
   <Button text="Can't Press me!" disabled ></Button>
 ));
 
-buttonStory.add('with on click handler', () => (
+buttonStory.add('With on click handler', () => (
   <Button text="Press me!" onClick={action('clicked')} ></Button>
 ));
 

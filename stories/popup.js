@@ -10,7 +10,7 @@ import beers from './beers.json';
 
 const popupStory = storiesOf('Popup', module);
 
-popupStory.add('shown window', () => (
+popupStory.add('Prikazi prozor', () => (
     <Popup tooltip='Hello World!'>
       <div>
         <span>
@@ -20,11 +20,11 @@ popupStory.add('shown window', () => (
     </Popup>
 ));
 
-popupStory.add('hidden window', () => (
+popupStory.add('Prozor sakriven', () => (
     <div></div>
 ));
 
-popupStory.add('popup with close handler', () => {
+popupStory.add('Prozor za funkcijom zatvaranja', () => {
 	const window = <Popup tooltip='Hello World!' onClose={action("close popup")}>
 		<div>
 			<span>
@@ -41,7 +41,7 @@ popupStory.add('popup with close handler', () => {
 	)
 });
 
-popupStory.add('shown window with content', () => {
+popupStory.add('Prozor sa sadrzajem', () => {
   return (
     <Popup tooltip='Hello World!'>
       <div>

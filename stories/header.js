@@ -7,7 +7,7 @@ import Header from '../components/header';
 
 const headerStory = storiesOf('Header', module);
 
-headerStory.add('simple', () => (
+headerStory.add('Primjer headera', () => (
   <Header
      imgUrl="http://www.alesandmeads.com/wp-content/uploads/2015/12/url.png"
      class=""
