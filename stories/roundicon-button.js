@@ -10,6 +10,6 @@ const roundiconStory = storiesOf('RoundIconButton', module);
 roundiconStory.add('simple', () => (
   <RoundButton
      imgUrl="http://icons.iconarchive.com/icons/iconsmind/outline/16/URL-Window-icon.png"
-     text="tesni"
+     text="Klik"
   ></RoundButton>
 ));

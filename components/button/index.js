@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './index.css';
-//import SimpsonFont from './fonts/Simpsonfont.ttf';
 
 export default class Button extends React.Component {
   render() {

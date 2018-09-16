@@ -10,12 +10,12 @@ const navigationmenuStory = storiesOf('Navigation Menu', module);
 const links = [
   {
     id: 1,
-    content: <a href="google.com">Google</a>,
+    content: <a href="algebra.hr">Algebra</a>,
     active: true,
   },
   {
     id: 2,
-    content: <a href="google.com">Moogle</a>,
+    content: <a href="dnevnik.hr">Dnevnik</a>,
   },
 ];
 
